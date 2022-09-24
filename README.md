@@ -1,2 +1,19 @@
-# vu3-simple-posts
-a small project for the output of posts, to demonstrate the main vue features
+# vue3-simple-posts
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
