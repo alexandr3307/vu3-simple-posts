@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1>Страница с постами</h1>
+    <h1>Page with posts</h1>
     <my-input
       :model-value="searchQuery"
       @update:model-value="setSearchQuery"
-      placeholder="Поиск...."
+      placeholder="Searching...."
       v-focus
     />
     <div class="app__btns">
-      <my-button @click="showDialog"> Создать пользователя </my-button>
+      <my-button @click="showDialog"> Create post </my-button>
       <my-select
         :model-value="selectedSort"
         @update:model-value="setSelectedSort"

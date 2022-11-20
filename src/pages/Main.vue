@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Привет</h1>
-    <router-link to="/posts">Посты</router-link>
-    <router-link to="/about">О нас</router-link>
+    <h1>Hello</h1>
+    <router-link to="/posts">Posts</router-link>
+    <router-link to="/about">About</router-link>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    Приложение создано благодаря интернет курсу
+    The application was created thanks to an online course
     <a href="https://youtu.be/XzLuMtDelGk">Ulbi TV</a>
   </div>
 </template>

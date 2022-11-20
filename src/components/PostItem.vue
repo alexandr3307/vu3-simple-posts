@@ -2,12 +2,12 @@
   <div class="post">
     <div>
       <div>{{ post.id }}</div>
-      <div><strong>Название: </strong> {{ post.title }}</div>
-      <div><strong>Описание: </strong> {{ post.body }}</div>
+      <div><strong>name: </strong> {{ post.title }}</div>
+      <div><strong>content: </strong> {{ post.body }}</div>
     </div>
     <div class="post__btns">
-      <MyButton @click="$router.push(`posts/${post.id}`)">Открыть</MyButton>
-      <MyButton @click="$emit('remove', post)">Удалить</MyButton>
+      <MyButton @click="$router.push(`posts/${post.id}`)">Open</MyButton>
+      <MyButton @click="$emit('remove', post)">Delete</MyButton>
     </div>
   </div>
 </template>
